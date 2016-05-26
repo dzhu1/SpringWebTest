@@ -1,0 +1,35 @@
+    apply plugin: 'java'
+    apply plugin: 'groovy'
+    apply plugin: 'war'
+
+    version = 1.0
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        providedCompile 'javax.servlet:servlet-api:2.5'
+        providedCompile 'javax.servlet.jsp:jsp-api:2.1'
+       // providedCompile 'javax.servlet:jstl:1.2'
+        
+        compile (
+            "javax.servlet:jstl:1.2",
+            "org.apache.velocity:velocity:1.7",
+            "org.springframework:spring-context:${spring_version}",
+            "org.springframework:spring-context-support:${spring_version}",
+            "org.springframework:spring-web:${spring_version}",
+            "org.springframework:spring-webmvc:${spring_version}",
+            "org.freemarker:freemarker:2.3.23"
+        )
+
+    }
+    
+    war {
+        archiveName 'springmvc.war'
+       // from 'src/webapp'
+    }
+
+
