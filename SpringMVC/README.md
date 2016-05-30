@@ -1,4 +1,8 @@
 # SpringMVC_Gradle
+
+[![Build Status](https://travis-ci.org/dzhu1/SpringWebTest.svg?branch=master)](https://travis-ci.org/dzhu1/SpringWebTest)
+[![Code Coverage](https://img.shields.io/codecov/c/github/dzhu1/SpringWebTest/master.svg)](https://codecov.io/github/dzhu1/SpringWebTest?branch=master)
+
 Spring MVC Framework Test 
 
 This project will test SpringMVC with multiple viewresolver, including JSP, static page, redirection, internal exception handling, freemarker template, velocity template, PDF export, Excel export
