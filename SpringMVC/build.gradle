@@ -27,12 +27,10 @@
             "org.apache.poi:poi:3.14",
             "org.apache.poi:poi-ooxml:3.14"
         )
-
     }
     
     war {
         archiveName 'springmvc.war'
-       // from 'src/webapp'
     }
 
 
