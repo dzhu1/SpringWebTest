@@ -19,10 +19,10 @@ public class Pdfview extends AbstractIText5PdfView {
     protected void buildPdfDocument(Map<String, Object> model,  
             Document document, PdfWriter writer, HttpServletRequest request,  
             HttpServletResponse response) throws Exception {  
-        Paragraph header = new Paragraph(new Chunk("PDF  ‰≥ˆ≤‚ ‘",  
+        Paragraph header = new Paragraph(new Chunk("PDF Output Testing",  
                 getChineseFont(24)));  
         document.add(header);  
-        document.add(new Paragraph("≤‚ ‘",getChineseFont(12)));  
+        document.add(new Paragraph("Testing",getChineseFont(12)));  
     }  
   
     private static final Font getChineseFont(float size) {  
