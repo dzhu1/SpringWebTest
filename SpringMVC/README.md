@@ -5,19 +5,19 @@ This project will test SpringMVC with multiple viewresolver, including JSP, stat
 
 
 ##JSP
-1. URL: http://localhost:8080/springmvc/hello
+1. URL: [](http://localhost:8080/springmvc/hello)
 2. Screenshot
 
 ![JSP](https://raw.githubusercontent.com/dzhu1/BlogPictures/master/SpringMVCPic/jsp.png)
 
 ##Static Page
-1. http://localhost:8080/springmvc/staticIndex
+1. [](http://localhost:8080/springmvc/staticIndex)
 2. Screenshot
 
 ![Static Page](https://raw.githubusercontent.com/dzhu1/BlogPictures/master/SpringMVCPic/staticPage.png)
 
 ##Redirection
-1. http://localhost:8080/springmvc/redirect
+1. [](http://localhost:8080/springmvc/redirect)
 2. Screenshot
 
 ![Redirection](https://raw.githubusercontent.com/dzhu1/BlogPictures/master/SpringMVCPic/redirect.png)
