@@ -1,7 +1,4 @@
-    dependencies {
-        providedCompile 'javax.servlet:servlet-api:2.5'
-        providedCompile 'javax.servlet.jsp:jsp-api:2.1'
-        
+    dependencies {      
         compile (
             "javax.servlet:jstl:1.2",
             "org.apache.velocity:velocity:1.7",

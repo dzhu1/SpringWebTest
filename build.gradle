@@ -10,4 +10,9 @@ subprojects {
     repositories {
         mavenCentral()
     }
+	
+	dependencies {
+        providedCompile 'javax.servlet:servlet-api:2.5'
+        providedCompile 'javax.servlet.jsp:jsp-api:2.1'
+	}
 }
