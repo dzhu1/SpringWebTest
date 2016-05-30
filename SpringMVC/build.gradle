@@ -1,15 +1,3 @@
-    apply plugin: 'java'
-    apply plugin: 'groovy'
-    apply plugin: 'war'
-
-    version = 1.0
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
-
-    repositories {
-        mavenCentral()
-    }
-
     dependencies {
         providedCompile 'javax.servlet:servlet-api:2.5'
         providedCompile 'javax.servlet.jsp:jsp-api:2.1'
